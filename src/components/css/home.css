@@ -1,0 +1,22 @@
+.home {
+    grid-area: home;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.home > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+}

@@ -1,0 +1,38 @@
+.contact {
+    grid-area: contact;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulario > input {
+    border: none;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+    margin: 10px 0;
+    width: 243px;
+    padding: 10px;
+}
+
+.formulario > input::placeholder {
+    color: #8B8B8B;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario > textarea {
+    width: 255px;
+    border: none;
+    border-bottom: 4px solid black;
+    border-left: 4px solid black;
+}
