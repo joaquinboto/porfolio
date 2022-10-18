@@ -13,3 +13,42 @@
     justify-items: center;
     align-items: center;;
 }
+
+.h1Skills {
+    color: black;
+    font-size: .7rem;
+}
+
+@media (min-width: 768px) {
+    .imglogos {
+        width: 100px;
+    }
+    
+    .divskills {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .logos {
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill, minmax(263px, 1fr));
+    grid-auto-rows: minmax(240px, auto);
+    max-width: 90%;
+    margin: 0 auto;
+    }
+
+    .h1Skills {
+        font-size: 1.7rem;
+    }
+
+    .imgSkillsBanner {
+        width: 20rem;
+    }
+   
+}

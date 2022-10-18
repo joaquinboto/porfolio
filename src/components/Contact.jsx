@@ -12,7 +12,7 @@ function Contact() {
         <input placeholder='PHONE NUMBER' type="text" />
         <textarea name="" id="" cols="50" rows="10">
         </textarea>
-        <input type="submit" value="SUBMIT" />
+        <input className='inputSubmit' type="submit" value="SUBMIT" />
       </div>
     </div>
   )

@@ -12,15 +12,16 @@ import skills from '../assets/skills.png'
 
 function Skills() {
 
-  const tech = [html , reactLogo , Javascript , NodeJS , css , postgres]
+  const tech = [{img: html , h1: "HTML"} , {img: reactLogo , h1: "React"} , {img: Javascript , h1: "JavaScript"} , {img: NodeJS , h1: "NodeJS"} , {img: css , h1: "CSS"} , {img: postgres , h1: "PostgreSQL"}]
 
   return (
     <div className='skills'>
-      <img src={skills} alt="skills" />
+      <img className='imgSkillsBanner' src={skills} alt="skills" />
       <div className='logos'>
         {tech.map(skills => (
-          <div key={skills}>
-            <img width={"50px"} src={skills} alt="skillslogos" />
+          <div className='divskills' key={skills}>
+            <img className='imglogos' width={"50px"} src={skills.img} alt="skillslogos" />
+            <h1 className='h1Skills'>{skills.h1}</h1>
           </div>
         ))}
       </div>

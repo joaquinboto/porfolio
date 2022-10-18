@@ -7,9 +7,11 @@ function Home() {
   return (
     <div className='home'>
        <div>
-        <span>my name is Joaquin</span>
-        <h1>I’M A DEVELOPER</h1>
-        <img src={separador} alt="separador" />
+        <span className='spanHi'>Hi, I am</span>
+        <h1>Joaquin Boto
+          <span className='subtitle'>Full Stack Developer</span>
+        </h1>
+        <img className='separadorhome' src={separador} alt="separador" />
        </div>
     </div>
   )

@@ -44,14 +44,16 @@ const NavContainer = styled.nav`
     }
   }
   padding: .4rem;
-  background-color: #333;
+  background-color: black;
   display: flex;
   align-items: center;
   justify-content: space-around;
   a{
     color: white;
     text-decoration: none;
-    margin-right: 1rem;
+    margin-right: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
   }
   .links{
     position: absolute;

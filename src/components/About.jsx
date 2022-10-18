@@ -9,20 +9,20 @@ function About() {
   return (
     <div className='about'>
       <div className='header'>
-        <img src={abou} alt="about" />
+        <img className='imgabout' src={abou} alt="about" />
         <p className='parrafoAbout'>My name is Joaquín Boto, I am a graduate of Henry. I have been learning Front-End and Back-End technologies for a year and this time was enough to make sure that this is my place in the industry.</p>
         <span>EXPLORE</span>
-        <img src={separador} alt="separadorblack" />
+        <img className='separatorabout' src={separador} alt="separadorblack" />
       </div>
       <div className='main' >
-        <div>
+        <div className='topmain'>
           <h3>
           <i className="lni lni-brush-alt"></i>
           DESIGN
           </h3>
           <p>I can design the website based on your needs and suggestions. I can also create it from scratch by consulting with you during work</p>
         </div>
-        <div>
+        <div className='topmain2'>
           <h3>
           <i className="lni lni-code"></i>
           DEVELOPMENT
@@ -31,7 +31,7 @@ function About() {
           Based on a project created by me or another one, sent by you, I can program the website to be fully functional and responsive.
           </p>
         </div>
-        <div>
+        <div className='buttonmain'>
           <h3>
           <i className="lni lni-graph"></i>
           MAINTENANCE
@@ -40,8 +40,8 @@ function About() {
           In case of any problems or the need for changes, I can introduce new functionalities and solutions.
           </p>
         </div>
-        <img src={separador} alt="separador" />
       </div>
+        <img src={separador} alt="separador" />
     </div>
   )
 }

@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 15px 0;
+    margin: 80px 0;
 }
 
 .formulario {
@@ -16,11 +16,22 @@
 
 .formulario > input {
     border: none;
-    border-bottom: 4px solid black;
+    border-right: 4px solid black;
     border-left: 4px solid black;
     margin: 10px 0;
     width: 243px;
     padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.formulario > input:focus {
+    outline: none;
+}
+
+.formulario > textarea:focus {
+    outline: none;
 }
 
 .formulario > input::placeholder {
@@ -28,11 +39,43 @@
     font-size: 12px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
 }
+
+
 
 .formulario > textarea {
     width: 255px;
     border: none;
     border-bottom: 4px solid black;
     border-left: 4px solid black;
+    max-height: 150px;
+    max-width: 255px;
+}
+
+@media (min-width: 768px) {
+    .formulario {
+        align-items: center;
+        width: 100%;
+    }
+
+    .formulario > textarea {
+        max-width: 623px;
+        min-width: 623px;
+        max-height: 155;
+    }
+
+    .formulario > input {
+        margin: 20px 0;
+        width: 609px;
+        padding: 10px;
+        
+    }
+
+    .inputSubmit {
+        cursor: pointer;
+    }
 }

@@ -38,5 +38,15 @@
     color: #f0f0f0;
     font-family: inherit;
     z-index: 1;
-
    }
+
+@media (min-width: 768px) {
+    .card {
+        width: 243px;
+        height: 344px;
+    }
+
+    .projects {
+        grid-template-columns: 1fr 1fr 1fr; 
+    }
+}   
