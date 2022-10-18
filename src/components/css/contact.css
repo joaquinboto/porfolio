@@ -4,7 +4,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 80px 0;
+    padding: 80px 0;
+    background-color: #252525;
 }
 
 .formulario {
@@ -14,9 +15,10 @@
     align-items: flex-start;
 }
 
+
 .formulario > input {
     border: none;
-    border-right: 4px solid black;
+    border-bottom: 4px solid black;
     border-left: 4px solid black;
     margin: 10px 0;
     width: 243px;
@@ -24,7 +26,10 @@
     font-size: 12px;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
+    background-color: #252525;
+    color: white;
 }
+
 
 .formulario > input:focus {
     outline: none;
@@ -45,6 +50,17 @@
     flex-direction: column;
 }
 
+.inputSubmit {
+    border: none;
+    border-right: 4px solid black;
+    border-left: 4px solid black;
+    margin: 10px 0;
+    width: 243px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
 
 
 .formulario > textarea {
@@ -54,6 +70,12 @@
     border-left: 4px solid black;
     max-height: 150px;
     max-width: 255px;
+    background-color: #252525;
+}
+
+.imgContactBanner {
+    width: 231px;
+    margin: 35px;
 }
 
 @media (min-width: 768px) {
@@ -72,10 +94,23 @@
         margin: 20px 0;
         width: 609px;
         padding: 10px;
-        
+        color: white;
     }
 
     .inputSubmit {
-        cursor: pointer;
+        border: none;
+        border-right: 4px solid black;
+        border-left: 4px solid black;
+        margin: 10px 0;
+        width: 243px;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
+        background-color: #252525;
+    }
+
+    .inputSubmit:hover {
+        background-color: #FFB800;
     }
 }

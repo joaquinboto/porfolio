@@ -5,11 +5,48 @@
     background-color: black;
 }
 
+/* From uiverse.io by @adamgiebl */
+.cssbuttons-io-button {
+    display: flex;
+    align-items: center;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 15px;
+    padding: 0.8em 1.5em 0.8em 1.2em;
+    color: white;
+    background: #ad5389;
+    background: linear-gradient(0deg, #d09f36be 0%, #d09f36be 100%);
+    border: none;
+    box-shadow: 0 0.7em 1.5em -0.5em #d09f36be;
+    letter-spacing: 0.05em;
+    border-radius: 20em;
+   }
+   
+   .cssbuttons-io-button svg {
+    margin-right: 8px;
+   }
+   
+   .cssbuttons-io-button:hover {
+    box-shadow: 0 0.5em 1.5em -0.5em #d09f36be;
+   }
+   
+   .cssbuttons-io-button:active {
+    box-shadow: 0 0.3em 1em -0.5em #d09f36be;
+   }
+
+   .adowload {
+    text-decoration: none;
+    color: #fff;
+   }
+
 h1 {
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Permanent Marker', cursive;
+    color: #FFB800;
 }
 
 span {
@@ -31,6 +68,7 @@ span {
 .subtitle {
     font-size: .7rem;
     color: gray;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media (min-width: 768px) {
@@ -56,7 +94,7 @@ span {
 
     .subtitle {
         font-size: 1rem;
-        color: gray;
+        color: white;
         border-bottom: 1px solid gray;
         width: 159px;
     }

@@ -1,6 +1,6 @@
 import React from 'react'
 import abou from '../assets/about.png'
-import separador from '../assets/separatorBlack 7.png'
+import separador from '../assets/separatorw.png'
 import './css/about.css'
 
 
@@ -11,7 +11,6 @@ function About() {
       <div className='header'>
         <img className='imgabout' src={abou} alt="about" />
         <p className='parrafoAbout'>My name is Joaquín Boto, I am a graduate of Henry. I have been learning Front-End and Back-End technologies for a year and this time was enough to make sure that this is my place in the industry.</p>
-        <span>EXPLORE</span>
         <img className='separatorabout' src={separador} alt="separadorblack" />
       </div>
       <div className='main' >

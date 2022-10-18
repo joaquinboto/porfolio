@@ -3,8 +3,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px auto;
-    max-width: 90%;
+    padding: 20px 20px;
+    background-color: #252525;
+    color: white
 }
 
 .header {
@@ -43,11 +44,18 @@
 .main > div > h3 {
     font-weight: bold;
     letter-spacing: 5px;
+    color: #FFB800;
+    font-family: 'Raleway', sans-serif;
 }
 
 .lni {
     width: 50px;
     font-size: 2rem;
+}
+
+.imgabout {
+    margin: 35px;
+    width: 231px;
 }
 
 @media (min-width: 768px) {
