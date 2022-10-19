@@ -16,10 +16,11 @@ function NavBar() {
       <NavContainer>
         <img src={Logo} alt="Logo"></img>
         <div className={`links ${clicked ? 'active' : ''}`}>
-          <a onClick={handleClick} href="#h">Home</a>
-          <a onClick={handleClick} href="#h">About me</a>
-          <a onClick={handleClick} href="#h">Proyects</a>
-          <a onClick={handleClick} href="#h">Contact</a>
+          <a href="#homepage">Home</a>
+          <a href="#aboutpage">About me</a>
+          <a href="#skillspage">Skills</a>
+          <a href="#projectspage">Proyects</a>
+          <a href="#contactpage">Contact</a>
         </div>
         <div className='burguer'>
           <BurguerButton clicked={clicked} handleClick={handleClick} />

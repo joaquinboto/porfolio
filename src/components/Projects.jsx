@@ -9,7 +9,7 @@ import ticket from '../assets/ticket.png'
 import portfolioproject from '../assets/portfolioproject.png'
 import countries from '../assets/countries.png' 
 import reactlorenzo from '../assets/reactlorenzo.png'
-import { DiGithubBadge } from "react-icons/di";
+
 
 
 function Projects() {
@@ -61,7 +61,7 @@ function Projects() {
 ]
 
   return (
-    <div className='porfolio'>
+    <div className='porfolio' id='projectspage'>
       <div className='banner'>
           <div>
             <img src={portRect} alt="" />

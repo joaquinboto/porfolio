@@ -7,7 +7,7 @@ import './css/about.css'
 
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id='aboutpage'>
       <div className='header'>
         <img className='imgabout' src={abou} alt="about" />
         <p className='parrafoAbout'>My name is Joaquín Boto, I am a graduate of Henry. I have been learning Front-End and Back-End technologies for a year and this time was enough to make sure that this is my place in the industry.</p>

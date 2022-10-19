@@ -20,7 +20,7 @@ function Skills() {
   {img: postgres , h1: "PostgreSQL"}]
 
   return (
-    <div className='skills'>
+    <div className='skills' id='skillspage'>
       <img className='imgSkillsBanner' src={skills} alt="skills" />
       <div className='logos'>
         {tech.map(skills => (

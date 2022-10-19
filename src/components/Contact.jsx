@@ -4,7 +4,7 @@ import contact from '../assets/contact.png'
 
 function Contact() {
   return (
-    <div className='contact'>
+    <div className='contact' id='contactpage'>
       <div><img className='imgContactBanner' src={contact} alt="" /></div>
       <div className='formulario'>
         <input placeholder='ENTER YOUR NAME*'  type="text" />

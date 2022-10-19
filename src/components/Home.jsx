@@ -8,7 +8,7 @@ function Home() {
 
 
   return (
-    <div className='home'>
+    <div className='home' id="homepage">
        <div>
         <span className='spanHi'>Hi, I am</span>
         <h1>Joaquin Boto
