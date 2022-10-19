@@ -9,7 +9,7 @@ function Home() {
 
   return (
     <div className='home' id="homepage">
-       <div>
+       <div className='b'>
         <span className='spanHi'>Hi, I am</span>
         <h1>Joaquin Boto
           <span className='subtitle'>Full Stack Developer</span>
@@ -20,6 +20,11 @@ function Home() {
           <a className='adowload' href="./CVJOAQUIN.pdf" download={' '}><span>Download CV</span></a>
         </button>
        </div>
+       <div className="dvProyectsAnimacion">
+                 <div className="box1"></div>
+                 <div className="box2"></div>
+                 <div className="box3"></div>
+        </div>
     </div>
   )
 }

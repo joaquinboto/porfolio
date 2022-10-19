@@ -18,8 +18,8 @@
 
 .formulario > input {
     border: none;
-    border-bottom: 4px solid black;
-    border-left: 4px solid black;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
     margin: 10px 0;
     width: 243px;
     padding: 10px;
@@ -52,8 +52,8 @@
 
 .inputSubmit {
     border: none;
-    border-right: 4px solid black;
-    border-left: 4px solid black;
+    border-right: 4px solid white;
+    border-left: 4px solid white;
     margin: 10px 0;
     width: 243px;
     padding: 10px;
@@ -66,8 +66,8 @@
 .formulario > textarea {
     width: 255px;
     border: none;
-    border-bottom: 4px solid black;
-    border-left: 4px solid black;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
     max-height: 150px;
     max-width: 255px;
     background-color: #252525;
@@ -88,6 +88,7 @@
         max-width: 623px;
         min-width: 623px;
         max-height: 155;
+        color: white;
     }
 
     .formulario > input {
@@ -99,8 +100,8 @@
 
     .inputSubmit {
         border: none;
-        border-right: 4px solid black;
-        border-left: 4px solid black;
+        border-right: 4px solid white;
+        border-left: 4px solid white;
         margin: 10px 0;
         width: 243px;
         padding: 10px;
@@ -108,9 +109,11 @@
         font-weight: bold;
         font-family: 'Montserrat', sans-serif;
         background-color: #252525;
+        color: white;
     }
 
     .inputSubmit:hover {
         background-color: #FFB800;
+        color: black
     }
 }

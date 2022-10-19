@@ -3,6 +3,7 @@
     height: 100%;
     width: 100%;
     background-color: black;
+   
 }
 
 /* From uiverse.io by @adamgiebl */
@@ -16,9 +17,9 @@
     padding: 0.8em 1.5em 0.8em 1.2em;
     color: white;
     background: #ad5389;
-    background: linear-gradient(0deg, #d09f36be 0%, #d09f36be 100%);
+    background: linear-gradient(0deg, #6A73FE 0%, #6A73FE 100%);
     border: none;
-    box-shadow: 0 0.7em 1.5em -0.5em #d09f36be;
+    box-shadow: 0 0.7em 1.5em -0.5em #6A73FE;
     letter-spacing: 0.05em;
     border-radius: 20em;
    }
@@ -28,11 +29,11 @@
    }
    
    .cssbuttons-io-button:hover {
-    box-shadow: 0 0.5em 1.5em -0.5em #d09f36be;
+    box-shadow: 0 0.5em 1.5em -0.5em #6A73FE;
    }
    
    .cssbuttons-io-button:active {
-    box-shadow: 0 0.3em 1em -0.5em #d09f36be;
+    box-shadow: 0 0.3em 1em -0.5em #6A73FE;
    }
 
    .adowload {
@@ -46,7 +47,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-family: 'Permanent Marker', cursive;
-    color: #FFB800;
+    color: #6A73FE;
 }
 
 span {
@@ -71,9 +72,32 @@ span {
     font-family: 'Poppins', sans-serif;
 }
 
+.dvProyectsAnimacion {
+    display: none;
+}
+
+.home {
+    grid-template-columns: auto;
+    height: 456px;
+}
+
+
+
+
+
+
+
+
 @media (min-width: 768px) {
     .home > div {
         font-size: 2rem;
+        height: 600px;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 600px;
     }
 
     .separadorhome {
@@ -86,6 +110,7 @@ span {
         left: -146px;
     }
 
+    
     h1{
         display: flex;
         flex-direction: column;
@@ -98,4 +123,82 @@ span {
         border-bottom: 1px solid gray;
         width: 159px;
     }
+
+    .dvProyectsAnimacion {
+        width: 100%;
+        position: relative;
+    }
+    
+    .box1 {
+        position: absolute;
+        width: 701px;
+        height: 428px;
+        left: 37px;
+        top: 110px;
+        background: url(../../assets/online-document-animate.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 5px 35px rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0 , 0.5);
+        border-radius: 8px;
+        }
+    
+    .box2 {
+        position: absolute;
+        width: 399px;
+        height: 274px;
+        left: 225px;
+        top: 250px;
+        background: url(../../assets/Blog.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 5px 35px rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0 , 0.5);
+        border-radius: 8px;
+        }
+    
+    .box3{
+        position: absolute;
+        width: 412px;
+        height: 274px;
+        left: 375px;
+        top: 280px;
+        background: url(../../assets/working-from-anywhere-animate.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 5px 35px rgb(0, 0, 0);
+        background-color: rgb(0, 0, 0 , 0.5);
+        border-radius: 8px;
+        }
+    
+    .dvProyectsAnimacion>* {
+        transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+        }
+    
+    .dvProyectsAnimacion>div {
+        transform: rotateY(-20deg) rotateX(20deg);
+        filter: blur(1px);
+        cursor: pointer;
+        }
+    
+    .dvProyectsAnimacion:hover>div {
+        transform: rotateY(0deg) rotateX(0deg);
+        filter: saturate(50%)
+        
+        }
+    
+    .dvProyectsAnimacion:hover .box2 {
+        transition-delay: 0.1s;
+        transform: translate(-260px, 30px);
+        }
+    
+    .dvProyectsAnimacion:hover .box1 {
+        transition-delay: 0.1s ;
+        transform: translate(0px, -80px);
+        }
+    
+    .dvProyectsAnimacion:hover div:hover {
+        filter: brightness(120%) saturate(130%);
+        
+        }
 }

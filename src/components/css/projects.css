@@ -65,11 +65,22 @@
 
 .lni-github-original {
     font-size: 28px ;
+    transition: all 500ms ease-in-out;
+}
+
+.lni-github-original:hover {
+    transform: translateY(-5px);
 }
 
 svg {
-    height: 28px;
-    width: 28px;
+    height: 35px;
+    width: 35px;
+    transition: all 500ms ease-in-out;
+}
+
+
+svg:hover {
+    transform: translateY(-5px);
 }
 
 @media (min-width: 768px) {
