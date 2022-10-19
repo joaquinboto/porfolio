@@ -68,7 +68,7 @@ span {
 
 .subtitle {
     font-size: .7rem;
-    color: gray;
+    color: white;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -177,13 +177,13 @@ span {
     
     .dvProyectsAnimacion>div {
         transform: rotateY(-20deg) rotateX(20deg);
-        filter: blur(1px);
+        filter: blur(0.5px);
         cursor: pointer;
         }
     
     .dvProyectsAnimacion:hover>div {
         transform: rotateY(0deg) rotateX(0deg);
-        filter: saturate(50%)
+        filter: saturate(20%)
         
         }
     
@@ -198,7 +198,7 @@ span {
         }
     
     .dvProyectsAnimacion:hover div:hover {
-        filter: brightness(120%) saturate(130%);
+        filter: brightness(110%) saturate(120%);
         
         }
 }
